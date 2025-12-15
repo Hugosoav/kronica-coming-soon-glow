@@ -3,6 +3,7 @@ import CTACard from "@/components/CTACard";
 import Footer from "@/components/Footer";
 import BackgroundWaves from "@/components/BackgroundWaves";
 
+
 const Index = () => {
   return (
     <div className="min-h-screen flex flex-col bg-background relative">
