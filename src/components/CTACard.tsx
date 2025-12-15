@@ -1,8 +1,7 @@
 import { ArrowRight } from "lucide-react";
 import { Button } from "./ui/button";
 
-const WHATSAPP_URL =
-  "https://wa.me/5528999161275?text=Ol%C3%A1!%20Quero%20solicitar%20um%20or%C3%A7amento%20com%20a%20Kronica.";
+const WHATSAPP_URL = "https://api.whatsapp.com/send?phone=5528999161275";
 
 const CTACard = () => {
   const handleClick = () => {
