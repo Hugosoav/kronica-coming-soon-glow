@@ -1,3 +1,6 @@
+import { Link } from "react-router-dom";
+import { Button } from "@/components/ui/button";
+import { Info } from "lucide-react";
 import ConstructionBadge from "@/components/ConstructionBadge";
 import CTACard from "@/components/CTACard";
 import Footer from "@/components/Footer";
@@ -35,6 +38,16 @@ const Index = () => {
           >
             <ConstructionBadge />
           </div>
+
+          <Link to="/sobre" className="opacity-0 animate-fade-in" style={{ animationDelay: '0.4s' }}>
+            <Button 
+              variant="outline" 
+              className="border-foreground/20 text-foreground hover:bg-foreground/10 hover:border-foreground/40"
+            >
+              <Info className="w-4 h-4 mr-2" />
+              Sobre + Serviços
+            </Button>
+          </Link>
         </section>
 
         {/* CTA Section */}
