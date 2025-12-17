@@ -28,10 +28,15 @@ const CTACard = () => {
         </TabsList>
 
         <TabsContent value="manifesto" className="mt-0">
-          <div className="space-y-4 text-muted-foreground text-sm md:text-base leading-relaxed">
-            <h3 className="text-foreground text-lg md:text-xl font-semibold">
-              Kronica — marcas que contam histórias
-            </h3>
+          <div className="space-y-4 text-muted-foreground text-sm md:text-base leading-relaxed text-center">
+            <div className="space-y-1">
+              <h3 className="text-foreground text-xl md:text-2xl font-semibold">
+                Kronica
+              </h3>
+              <p className="text-muted-foreground/80 text-sm md:text-base italic">
+                marcas que contam histórias
+              </p>
+            </div>
             
             <p>
               A Kronica é um brand studio independente que acredita que marcas vão muito além da estética. Elas são narrativas vivas, construídas no tempo, no detalhe e na coerência.
@@ -54,7 +59,7 @@ const CTACard = () => {
         <TabsContent value="contato" className="mt-0">
           <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-6">
             <p className="text-muted-foreground text-base md:text-lg leading-relaxed md:max-w-sm">
-              Mas para agilizar seu atendimento, entre em contato com a gente clicando no botão:
+              Agilize seu atendimento, entre em contato com a gente:
             </p>
             <Button
               variant="cta"
