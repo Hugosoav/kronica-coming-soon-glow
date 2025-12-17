@@ -57,10 +57,15 @@ const CTACard = () => {
         </TabsContent>
 
         <TabsContent value="contato" className="mt-0">
-          <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-6">
-            <p className="text-muted-foreground text-base md:text-lg leading-relaxed md:max-w-sm">
-              Agilize seu atendimento, entre em contato com a gente:
-            </p>
+          <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-6 text-center md:text-left">
+            <div className="space-y-1">
+              <h3 className="text-foreground text-lg md:text-xl font-semibold">
+                Agilize seu atendimento
+              </h3>
+              <p className="text-muted-foreground text-base md:text-lg leading-relaxed">
+                entre em contato com a gente:
+              </p>
+            </div>
             <Button
               variant="cta"
               size="xl"
